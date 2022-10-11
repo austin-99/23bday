@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        .minecraft-pic{
+            width: 1000px; 
+            height: auto; 
+            display:block; 
+            margin-left: auto; 
+            margin-right: auto;
+        }
+        .minecraft-pic-sm{
+            display: none;
+        }
+        @media screen and (max-width:400px) {
+            img.minecraft-pic{
+                display: none;
+            }
+            .minecraft-pic-sm{
+                display: block;
+                width: 300px;
+                margin-left: auto; 
+                margin-right: auto;
+            }
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div style="min-height:100vh">
+        <a href="./note.html"><img class="minecraft-pic" src="./Images/minecraft.png" alt=""></a>
+        <a href="./note.html"><img class="minecraft-pic-sm" src="./Images/minecraft_sm.png" alt=""></a>
+        <p style="color: white; text-align: center; font-family: sans-serif;">Click on the cake for a surprise</p>
+    </div>
+</body>
+</html>
