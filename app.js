@@ -8,10 +8,13 @@ function myFunction(){
     let input = document.querySelector("#userInput");
     let message = document.querySelector("#message");
 
-    if (userInput.value == "yes"){
+    if (userInput.value == "yes" || userInput.value == "Yes"){
         message.innerHTML = "I love how you are so patient with me. You always give me a million chances and I'm so grateful for you.";
     }
+    else if (userInput.value == "no" || userInput.value == "No"){
+        message.innerHTML = "ok, maybe tomorrow";
+    }
     else{
-        message.innerHTML = "ok, maybe tomorrow"
+        message.innerHTML = "Baby, try again";
     }
 }

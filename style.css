@@ -76,6 +76,16 @@ p{
 
 #button-pos{
     padding: 10px;
+    text-align: center;
+}
+
+.fa{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fa:hover{
+    color: rgb(212, 182, 255);
 }
 
 img.dudu{
