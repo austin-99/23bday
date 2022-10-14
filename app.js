@@ -8,7 +8,7 @@ function myFunction(){
     let input = document.querySelector("#userInput");
     let message = document.querySelector("#message");
 
-    if (userInput.value == "yes" || userInput.value == "Yes"){
+    if (userInput.value == "yes" || userInput.value == "Yes" || userInput.value == "YES"){
         message.innerHTML = "I love how you care about everything that I have you say and you make me feel special when I tell you anything that’s on my mind";
     }
     else if (userInput.value == "no" || userInput.value == "No"){
