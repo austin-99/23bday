@@ -9,7 +9,7 @@ function myFunction(){
     let message = document.querySelector("#message");
 
     if (userInput.value == "yes" || userInput.value == "Yes" || userInput.value == "YES"){
-        message.innerHTML = "I love how we have so many things in common (especially with the hunger games because I don’t know many people that loves it as much as I do)";
+        message.innerHTML = "I love how we get to watch movies together and you telling me your favourite parts of it";
     }
     else if (userInput.value == "no" || userInput.value == "No"){
         message.innerHTML = "ok, maybe tomorrow";
