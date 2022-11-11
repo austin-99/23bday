@@ -9,10 +9,10 @@ function myFunction(){
     let message = document.querySelector("#message");
 
     if (userInput.value == "yes" || userInput.value == "Yes" || userInput.value == "YES"){
-        message.innerHTML = "I love how you watched an anime show with me even though you don’t even like anime. It made me feel so special because that show was my favourite and I was crazy about it";
+        message.innerHTML = "I love how excited you get when you go travelling and you show me all these vlogs that make me feel like I’m there with you";
     }
     else if (userInput.value == "no" || userInput.value == "No"){
-        message.innerHTML = "ok, maybe tomorrow";
+        message.innerHTML = "please say yes baby it will make you happier";
     }
     else{
         message.innerHTML = "Baby, try again";
