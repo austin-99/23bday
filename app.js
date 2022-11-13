@@ -9,7 +9,7 @@ function myFunction(){
     let message = document.querySelector("#message");
 
     if (userInput.value == "yes" || userInput.value == "Yes" || userInput.value == "YES"){
-        message.innerHTML = "I love how even though we have a lot in common, we can be opposites too (in a good way). I love how you are extraverted and we’d do so much together when we have each other in person";
+        message.innerHTML = "I love how you love doing these random tests I send you like the 16 personality test so I can know more about my sweet baby";
     }
     else if (userInput.value == "no" || userInput.value == "No"){
         message.innerHTML = "please say yes baby it will make you happier";
