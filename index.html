@@ -29,7 +29,7 @@
         <div id="home">
             <h1>
                 Hey <span class="auto-type"></span> happy birthday!
-                <p class="gray-text" style="padding-top:2px;">
+                <p style="padding-top:2px;">
                     I hope you have an amazing day today.  
                     I'm so in love with my baby girl
                 </p>
@@ -37,10 +37,10 @@
         </div>
         <script>
             var typed = new Typed(".auto-type", {
-                strings: ["sweetheart,", "boo bear,", "angel,", "sugar plum,"],
+                strings: ["sweetheart,"], //, "boo bear,", "angel,", "sugar plum,"],
                 typeSpeed: 150,
                 backSpeed: 150,
-                loop: true
+                loop: false
             })
         </script>
         <div id="message-content" class="row">
@@ -83,9 +83,9 @@
                 Everyday I will send you a message about what I love about you
             </p>
             <div id=message-box>
-                <p class="gray-text part-2-msg">are you ready for today's message?</p>
+                <p class="part-2-msg">are you ready for today's message?</p>
                 <input type="text" id="userInput"><button onclick="myFunction()" id="message-btn">submit</button>
-                <p id="message" style="color:rgba(255, 255, 255, 0.509)"></p>
+                <p id="message"></p>
             </div>
         </div>
     </div>
