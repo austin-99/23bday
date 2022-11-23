@@ -165,12 +165,12 @@ input{
 
 @media screen and (max-width: 400px){
     h1{
-        padding-top: 300px;
+        padding-top: 200px;
         padding-bottom: 350px;
     }
     img.dudu{
         height: auto; 
-        width: 200px; 
+        width: 250px; 
         border-radius:10px; 
         box-shadow:2px 2px 4px #d8d8d829 ;
     }
