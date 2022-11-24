@@ -94,7 +94,11 @@ img.dudu{
     height: auto; 
     width: 300px; 
     border-radius:10px; 
+    text-align: center;
     box-shadow:2px 2px 4px #d8d8d829 ;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 
 #part-2{
@@ -164,6 +168,10 @@ input{
 }
 
 @media screen and (max-width: 400px){
+    .container-body{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
     h1{
         padding-top: 200px;
         padding-bottom: 350px;
