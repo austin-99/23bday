@@ -9,7 +9,7 @@ function myFunction(){
     let message = document.querySelector("#message");
 
     if (userInput.value == "yes" || userInput.value == "Yes" || userInput.value == "YES"){
-        message.innerHTML = "I love how cute you are when you said that you have to fight the urge to not eat raw batter <br> Also, CONGRATS on finishing your semester baby I'm so happy that you are DONE and now baby can rest. <br> I am so proud of you Lana. The things you accomplish are not easy at all but you make it look easy because of now smart and talented you are";
+        message.innerHTML = "I love how you’re so cute when you would tell me that you’d take a body shower. I love my clean baby so much and I wish I could help you wash yourself";
     }
     else if (userInput.value == "no" || userInput.value == "No"){
         message.innerHTML = "please say yes baby it will make you happier";
