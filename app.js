@@ -9,7 +9,7 @@ function myFunction(){
     let message = document.querySelector("#message");
 
     if (userInput.value == "yes" || userInput.value == "Yes" || userInput.value == "YES"){
-        message.innerHTML = "I love the way you use the period at the end of your sentences and I love how we both understand the meaning of it because we make each other laugh";
+        message.innerHTML = "I love how you love my desk setup. It means so much to me because everyone else would think it’s lame to care so much about a desk";
     }
     else if (userInput.value == "no" || userInput.value == "No"){
         message.innerHTML = "please say yes baby it will make you happier";
