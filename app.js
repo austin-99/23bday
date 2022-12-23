@@ -9,7 +9,7 @@ function myFunction(){
     let message = document.querySelector("#message");
 
     if (userInput.value == "yes" || userInput.value == "Yes" || userInput.value == "YES"){
-        message.innerHTML = "I love how you are my teddy bear. I always knew that I would be so lucky to have someone whose personality trait is like a teddy bear (warm, sweet, and makes me what to cuddle you all day)";
+        message.innerHTML = "I love your reactions when I show you the things I built on Minecraft, baby. It’s so sweet and cute when you say how much you love it";
     }
     else if (userInput.value == "no" || userInput.value == "No"){
         message.innerHTML = "please say yes baby it will make you happier";
