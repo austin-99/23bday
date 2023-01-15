@@ -9,7 +9,7 @@ function myFunction(){
     let message = document.querySelector("#message");
 
     if (userInput.value == "yes" || userInput.value == "Yes" || userInput.value == "YES"){
-        message.innerHTML = "I love how you always make time fly. This means you fill all my days with love and happiness baby (but I always wish we have more time)";
+        message.innerHTML = "I love you for being so proud of me when I finally got my black BMO card. It meant the world to me and I love being your triple B (Black BMO baby)";
     }
     else if (userInput.value == "no" || userInput.value == "No"){
         message.innerHTML = "please say yes baby it will make you happier";
