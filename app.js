@@ -9,7 +9,7 @@ function myFunction(){
     let message = document.querySelector("#message");
 
     if (userInput.value == "yes" || userInput.value == "Yes" || userInput.value == "YES"){
-        message.innerHTML = "I love how you love perfumes and it’s always so cute when you talk about it<br>I love how you don’t wear outside shoes indoors unlike those American you tubers<br>I love how you’d let me kiss and pat your head <br>I love how you spend most of your time on me because I love you and im always missing you baby<br>I love being so proud of you and getting to witness all of your amazing achievements baby";
+        message.innerHTML = "I love you for always spending Christmas with me. I love getting to spend my favourite holiday with my favourite person";
     }
     else if (userInput.value == "no" || userInput.value == "No"){
         message.innerHTML = "please say yes baby it will make you happier";
