@@ -9,7 +9,7 @@ function myFunction(){
     let message = document.querySelector("#message");
 
     if (userInput.value == "yes" || userInput.value == "Yes" || userInput.value == "YES"){
-        message.innerHTML = "I love how you think it’s sweet when I talk about wanting childish things like having Harry Potter stickers on my laptop";
+        message.innerHTML = "I love how you thought it was so funny when I got banned from Pokemon go because at least I got something out of it (making baby laugh)";
     }
     else if (userInput.value == "no" || userInput.value == "No"){
         message.innerHTML = "please say yes baby it will make you happier";
